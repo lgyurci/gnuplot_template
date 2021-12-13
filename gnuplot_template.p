@@ -4,6 +4,10 @@ set xlabel "Meghajtó teljesítmény (W)"
 #set title "Diffrakció I-P karakterisztikája"
 set terminal eps
 set output filename.'.eps'
+
+#Scientifix notation the way I like it
+#set format y "%2.0t{/Symbol \264}10^{%L}"
+
 #f(x)=b+sin(a*sqrt(x))**2
 #a = 1
 #b=1
